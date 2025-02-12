@@ -1,8 +1,9 @@
-Edgerunners Backend Project
+# Edgerunners Backend Project
+
 Welcome to the Edgerunners Backend project! This is a Django-based backend designed to handle API logic, user authentication, and more. Below is a guide to the folder structure and files to help you navigate and understand the project.
 
-Project Structure
-Copy
+## Project Structure
+
 edgerunners_backend/
 ├── myapp/                     # Custom app for general functionality
 │   ├── migrations/            # Database migrations
@@ -30,117 +31,39 @@ edgerunners_backend/
 │   └── wsgi.py                # WSGI configuration for deployment
 ├── manage.py                  # Django command-line utility
 └── requirements.txt           # List of Python dependencies
-Key Files and Their Purpose
-1. myapp/
-views.py: Contains view functions for handling requests (e.g., returning a welcome message).
 
-urls.py: Defines URL patterns for the app (e.g., mapping the root URL to a view).
 
-models.py: Defines database models for the app (if needed).
+## Key Files and Their Purpose
 
-admin.py: Registers models with the Django admin panel.
+### `myapp/`
+- **`views.py`**: Contains view functions for handling requests (e.g., returning a welcome message).
+- **`urls.py`**: Defines URL patterns for the app (e.g., mapping the root URL to a view).
+- **`models.py`**: Defines database models for the app (if needed).
+- **`admin.py`**: Registers models with the Django admin panel.
 
-2. api/
-views.py: Contains API-specific view functions (e.g., returning JSON responses).
+### `api/`
+- **`views.py`**: Contains API-specific view functions (e.g., returning JSON responses).
+- **`urls.py`**: Defines URL patterns for the API (e.g., mapping `/api/` to API views).
+- **`models.py`**: Defines database models for the API (if needed).
 
-urls.py: Defines URL patterns for the API (e.g., mapping /api/ to API views).
+### `edgerunners_backend/` (Project Configuration)
+- **`settings.py`**: Contains project-wide settings, such as:
+  - `INSTALLED_APPS`: Lists all apps used in the project.
+  - `DATABASES`: Configures the database connection.
+  - `MIDDLEWARE`: Defines middleware for request/response processing.
+- **`urls.py`**: Main URL routing file that includes URLs from `myapp` and `api`.
 
-models.py: Defines database models for the API (if needed).
-
-3. edgerunners_backend/ (Project Configuration)
-settings.py: Contains project-wide settings, such as:
-
-INSTALLED_APPS: Lists all apps used in the project.
-
-DATABASES: Configures the database connection.
-
-MIDDLEWARE: Defines middleware for request/response processing.
-
-urls.py: Main URL routing file that includes URLs from myapp and api.
-
-4. manage.py
+### `manage.py`
 A command-line utility for interacting with the Django project (e.g., running the server, creating migrations).
 
-5. requirements.txt
+### `requirements.txt`
 Lists all Python dependencies required for the project. Install them using:
 
-bash
-Copy
+```bash
 pip install -r requirements.txt
-How to Run the Project
-Clone the Repository:
 
-bash
-Copy
-git clone https://github.com/your-username/edgerunners_backend.git
-cd edgerunners_backend
-Set Up a Virtual Environment:
-
-bash
-Copy
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-Install Dependencies:
-
-bash
-Copy
-pip install -r requirements.txt
-Run Migrations:
-
-bash
-Copy
-python manage.py migrate
-Start the Development Server:
-
-bash
-Copy
-python manage.py runserver
-Access the Project:
-
+Access the Project
 Open your browser and visit:
 
-Admin Panel: http://127.0.0.1:8000/admin/
-
 API Endpoint: http://127.0.0.1:8000/api/
-
 Root Endpoint (myapp): http://127.0.0.1:8000/
-
-Example API Endpoints
-Welcome Message:
-
-URL: http://127.0.0.1:8000/
-
-Response:
-
-json
-Copy
-{"message": "Welcome to myapp! Chainsaw Man team is on duty! 🔪✨"}
-API Home:
-
-URL: http://127.0.0.1:8000/api/
-
-Response:
-
-json
-Copy
-{"message": "Welcome to the API!"}
-Contributing
-Fork the repository.
-
-Create a new branch for your feature or bugfix:
-
-bash
-Copy
-git checkout -b feature/your-feature-name
-Commit your changes:
-
-bash
-Copy
-git commit -m "Add your message here"
-Push to the branch:
-
-bash
-Copy
-git push origin feature/your-feature-name
-Open a pull request.
