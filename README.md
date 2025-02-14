@@ -2,7 +2,6 @@
 
 This repository contains mini projects to help beginners understand back-end development concepts. These projects cover topics such as web servers, REST APIs, database integration, authentication, and deployment.
 
----
 
 ## 📝 Summary of Concepts
 
@@ -13,7 +12,6 @@ Back-end development involves handling server-side logic, databases, authenticat
 4. Implementing **user authentication** using JWT.
 5. **Deploying** the back-end to a live server.
 
----
 
 ## 📌 Mini Projects
 
@@ -37,8 +35,6 @@ This project focus on:
 ✅ **Implementing user authentication (JWT, Django Auth)**  
 ✅ **Deploying a Django app to production (Heroku, Render, etc.)**  
 
-
----
 
 3️⃣ **Database Integration**  
 **Goal:** Store and retrieve data using a database.  
