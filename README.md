@@ -29,23 +29,7 @@ Back-end development involves handling server-side logic, databases, authenticat
 
 ---
 
-### 2️⃣ **Simple REST API**
-- **Goal:** Build an API with `GET` and `POST` requests  
-- **Skills:** API creation, handling JSON responses  
-- **Folder:** [`edgerunners_backend`]
-- **Description:**  
-  - Setting up **Django** from scratch  
-  - Creating a **REST API** using Django  
-  - Handling database integration (SQLite, PostgreSQL, etc.)  
-  - Implementing user authentication (JWT, Django Auth)  
-  - Deploying a Django app to production (Heroku, Render, etc.)  
-- **What I Built:**  
-  - A Django-based REST API capable of receiving and returning JSON data  
-  - Demonstrated how to structure URL endpoints and view functions for clear API design  
-
----
-
-### 3️⃣ **Database Integration**
+### 2️⃣ **Database Integration**
 - **Goal:** Store and retrieve data using a database  
 - **Skills:** Database connections, CRUD operations  
 - **Folder:** [`chainsawman_site`]
@@ -62,6 +46,6 @@ Back-end development involves handling server-side logic, databases, authenticat
 
 ---
 
-### **4️⃣ Deploy a Back-End App**
+### **3️⃣ Deploy a Back-End App**
 - **Goal:** Deploy a server to **Heroku** or **Render**.
 - **Skills:** Deployment, environment variables, production readiness.
