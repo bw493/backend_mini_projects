@@ -43,12 +43,12 @@ This project focus on:
 - **Skills:** Database connections, CRUD operations.
 
 This project focuses on:
-✅ Setting up and configuring your database (SQLite, PostgreSQL, MySQL, etc.)
-✅ Designing and managing Django models and migrations.
-✅ Implementing full CRUD operations (Create, Read, Update, Delete).
-✅ Utilizing Django ORM for efficient database interactions.
-✅ Optimizing queries and indexing for improved performance.
-✅ Securing data with proper backups and restoration strategies.
+✅ **Setting up and configuring your database (SQLite, PostgreSQL, MySQL, etc.)**
+✅ **Designing and managing Django models and migrations.**
+✅ **Implementing full CRUD operations (Create, Read, Update, Delete).**
+✅ **Utilizing Django ORM for efficient database interactions.**
+✅ **Optimizing queries and indexing for improved performance.**
+✅ **Securing data with proper backups and restoration strategies.**
 
 ### **4️⃣ Deploy a Back-End App**
 - **Goal:** Deploy a server to **Heroku** or **Render**.
