@@ -1,16 +1,14 @@
 # Back-End Development Mini Projects
 
-This repository contains mini projects to help beginners understand back-end development concepts. These projects cover topics such as web servers, REST APIs, database integration, authentication, and deployment.
+This repository contains mini projects to help beginners understand back-end development concepts. These projects cover topics such as web servers, database integration, and deployment.
 
 ## 📝 Summary of Concepts
 
 Back-end development involves handling server-side logic, databases, authentication, and API communication. This guide covers:
 
-1. Setting up a basic server using **Flask (Python)** or **Express (Node.js)**
-2. Creating a **REST API** to send and receive data
-3. Connecting the back-end to a **database** (SQLite, MongoDB)
-4. Implementing **user authentication** using JWT
-5. **Deploying** the back-end to a live server
+1. Setting up a basic server
+2. Connecting the back-end to a **database** (SQLite, MongoDB)
+3. **Deploying** the back-end to a live server
 
 ---
 
