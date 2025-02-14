@@ -42,10 +42,6 @@ This project focus on:
 - **Goal:** Store and retrieve data using a database.
 - **Skills:** Database connections, CRUD operations.
 
-### **4️⃣ User Authentication**
-- **Goal:** Implement login/logout with JWT authentication.
-- **Skills:** Security, password hashing, authentication tokens.
-
-### **5️⃣ Deploy a Back-End App**
+### **4️⃣ Deploy a Back-End App**
 - **Goal:** Deploy a server to **Heroku** or **Render**.
 - **Skills:** Deployment, environment variables, production readiness.
