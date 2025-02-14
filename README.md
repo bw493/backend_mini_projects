@@ -29,11 +29,11 @@ I created a **basic web server** using Python and Flask. It listens for incoming
 - **Skills:** API creation, handling JSON responses.
 
 This project focus on:
-✅ **Setting up Django from scratch**  
-✅ **Creating a REST API using Django**  
-✅ **Handling database integration (SQLite, PostgreSQL, etc.)**  
-✅ **Implementing user authentication (JWT, Django Auth)**  
-✅ **Deploying a Django app to production (Heroku, Render, etc.)**  
+✅ Setting up Django from scratch
+✅ Creating a REST API using Django
+✅ Handling database integration (SQLite, PostgreSQL, etc.)
+✅ Implementing user authentication (JWT, Django Auth)
+✅ Deploying a Django app to production (Heroku, Render, etc.)
 
 
 ### **3️⃣ Database Integration**  
