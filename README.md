@@ -39,6 +39,7 @@ This project focus on:
 ### **3️⃣ Database Integration**  
 - **Goal:** Store and retrieve data using a database.  
 - **Skills:** Database connections, CRUD operations.  
+
 This project focuses on:
 ✅ Setting up and configuring your database (SQLite, PostgreSQL, MySQL, etc.)  
 ✅ Designing and managing Django models and migrations.  
