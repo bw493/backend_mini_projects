@@ -36,9 +36,9 @@ This project focus on:
 ✅ **Deploying a Django app to production (Heroku, Render, etc.)**  
 
 
-3️⃣ **Database Integration**  
-**Goal:** Store and retrieve data using a database.  
-**Skills:** Database connections, CRUD operations.  
+### 3️⃣ **Database Integration**  
+- **Goal:** Store and retrieve data using a database.  
+- **Skills:** Database connections, CRUD operations.  
 **This project focuses on:**  
 ✅ Setting up and configuring your database (SQLite, PostgreSQL, MySQL, etc.)  
 ✅ Designing and managing Django models and migrations.  
