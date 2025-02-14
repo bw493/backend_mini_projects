@@ -50,6 +50,7 @@ This project focuses on:
 ✅ **Optimizing queries and indexing for improved performance.**
 ✅ **Securing data with proper backups and restoration strategies.**
 
+
 ### **4️⃣ Deploy a Back-End App**
 - **Goal:** Deploy a server to **Heroku** or **Render**.
 - **Skills:** Deployment, environment variables, production readiness.
